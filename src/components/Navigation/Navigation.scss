@@ -1,0 +1,21 @@
+@use '../../assets/styles/variables.scss'as *;
+
+.navigation-container{
+    display: none;
+}
+
+@media screen and (min-width: $tablet-breakpoint){
+    .navigation-container{
+        display: flex;
+        width: 33vw;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navigation-text{
+        color: $colour-secondary;
+        font-family: $font-text;
+        font-weight: 400;
+        font-size: 1.25rem;
+    }
+}
+

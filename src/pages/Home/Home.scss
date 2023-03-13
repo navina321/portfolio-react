@@ -1,0 +1,14 @@
+@use '../../assets/styles/variables.scss' as *;
+
+.home-page__title{
+    color: $colour-secondary;
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: $font-header;
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+    .home-page__title{
+        font-size: 8rem;
+    }
+}

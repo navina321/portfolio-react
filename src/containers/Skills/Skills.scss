@@ -1,0 +1,33 @@
+@use '../../assets/styles/variables.scss' as *;
+
+.skills-container{
+    display: none;
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+    .skills-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .skills-icons{
+        display:flex;
+        justify-content: space-evenly;
+        &__icon{
+            justify-content: center;
+        }
+        &__text{
+            text-align: center;
+            font-family: $font-text;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+    }
+}

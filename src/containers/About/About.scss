@@ -1,0 +1,29 @@
+@use '../../assets/styles/variables.scss' as *;
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-title{
+    color: $colour-secondary;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: $font-header;
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+    .about-container{
+        flex-direction: row;
+    }
+    .about-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-title{
+        font-size: 3rem;
+    }
+}

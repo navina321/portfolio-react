@@ -1,0 +1,9 @@
+@use '../../assets/styles/variables.scss' as *;
+
+.footer-container{
+    width: 100vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

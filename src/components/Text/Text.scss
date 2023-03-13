@@ -1,0 +1,22 @@
+@use '../../assets/styles/variables.scss' as *;
+
+.text-container{
+    width: 85vw;
+    height: auto;
+}
+.text-text{
+    color: $colour-secondary;
+    font-family: $font-text;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+}
+@media screen and (min-width: $tablet-breakpoint){
+    .text-container{
+        width: 45vw;
+        height: auto;
+    }
+    .text-text{
+       font-size: 1.25rem; 
+    }
+}
