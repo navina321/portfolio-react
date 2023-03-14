@@ -14,5 +14,5 @@ const About = () => {
     </div>
   )
 }
-
+//https://www.figma.com/file/GcXrhyHfbBVzSsRHPcTmRh/Curriculum---Web---Student-Portfolio-Template?node-id=3569%3A356&t=iz3sJUR6YhEdQPb7-0
 export default About

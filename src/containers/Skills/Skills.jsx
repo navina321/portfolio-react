@@ -4,12 +4,12 @@ import './Skills.scss'
 import BEM from '../../assets/images/skills-icons/BEM.svg'
 import CSS3 from '../../assets/images/skills-icons/CSS3.svg'
 import Git from '../../assets/images/skills-icons/Git.svg'
-import HTML5 from '../../assets/images/skills-icons/BEM.svg'
-import Java from '../../assets/images/skills-icons/BEM.svg'
-import JavaScript from '../../assets/images/skills-icons/BEM.svg'
-import React from '../../assets/images/skills-icons/BEM.svg'
-import SCSS from '../../assets/images/skills-icons/BEM.svg'
-import SpringBoot from '../../assets/images/skills-icons/BEM.svg'
+import HTML5 from '../../assets/images/skills-icons/HTML5.svg'
+import Java from '../../assets/images/skills-icons/Java.svg'
+import JavaScript from '../../assets/images/skills-icons/JavaScript.svg'
+import ReactIcon from '../../assets/images/skills-icons/React.svg'
+import SCSS from '../../assets/images/skills-icons/SCSS.svg'
+import SpringBoot from '../../assets/images/skills-icons/SpringBoot.svg'
 
 const Skills = () => {
   return (
@@ -44,7 +44,7 @@ const Skills = () => {
                 <h3 className = 'skills-icons__text'>BEM</h3>
             </div>
             <div className = 'skills-icons__icon'>
-                <img src = {React}alt="react-icon"/>
+                <img src = {ReactIcon}alt="react-icon"/>
                 <h3 className = 'skills-icons__text'>React</h3>
             </div>
             <div className = 'skills-icons__icon'>
