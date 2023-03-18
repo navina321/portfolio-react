@@ -6,28 +6,23 @@
 
 @media screen and (min-width: $tablet-breakpoint) {
     .skills-container{
+        display: contents;
+    }
+    .skills-all-text{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
     .skills-text{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
+        width: 70vw;
+    }
+    .skills-header{
+        font-family: $font-header;
+        font-size: 3rem;
     }
     .skills-icons{
-        display:flex;
-        justify-content: space-evenly;
-        &__icon{
-            justify-content: center;
-        }
-        &__text{
-            text-align: center;
-            font-family: $font-text;
-            font-weight: 500;
-            font-size: 1rem;
-        }
+        display: flex;
+        justify-content: space-around;
+        padding: 2vh 10vw;
     }
 }

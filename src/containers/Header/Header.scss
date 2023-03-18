@@ -1,23 +1,22 @@
-@use '../../assets/styles/variables.scss'as *;
+@use '../../assets/styles/variables.scss' as *;
 
 .header-container{
-    display: flex;
-    justify-content: center;
-
+    text-align: center;
 }
-.header-heading{
+.header-text{
     font-family: $font-header;
     font-weight: 700;
     font-size: 1.5rem;
-    color: $color-primary
 }
 
-@media screen and (min-width: $tablet-breakpoint){
+@media screen and (min-width: $tablet-breakpoint) {
     .header-container{
-        justify-content: space-around;
+        display: flex;
         align-items: center;
+        justify-content: space-between;
+        height: 15vh;
     }
-    .header-heading{
+    .header-text{
         font-size: 3rem;
     }
 }

@@ -1,0 +1,5 @@
+@use './assets/styles/variables.scss' as *;
+* {
+    background-color: $color-primary;
+    color: $colour-secondary;
+}

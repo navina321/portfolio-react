@@ -1,14 +1,27 @@
 @use '../../assets/styles/variables.scss' as *;
 
-.home-page__title{
-    color: $colour-secondary;
+.home-container{
+    margin: 0 5vw;
+}
+.home-title{
+    margin: 0 0;
+    font-family: $font-header;
     font-size: 5rem;
     font-weight: 400;
-    font-family: $font-header;
 }
 
 @media screen and (min-width: $tablet-breakpoint) {
-    .home-page__title{
+    .home-container{
+        margin: 0 5vw;
+    }
+    .home-title{
         font-size: 8rem;
+        text-align: center;
+        margin: 1.5vh 0;
+    }
+    .home-intro-text{
+        margin: 7.5vh 0;
+        width: 30vw;
+        padding-left: 12.5vw;
     }
 }
