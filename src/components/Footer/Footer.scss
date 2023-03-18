@@ -5,11 +5,17 @@
     height: 15vh;
     background-color: $color-background;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    .icons{
-        display: flex;
-        background-color: $color-background;
-    }
+  
+}
+  
+.icons{
+    display: flex;
+    background-color: $color-background;
+}
+.email{
+    display: flex;
+    background-color: $color-background;
 }

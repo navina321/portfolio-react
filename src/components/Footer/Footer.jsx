@@ -7,6 +7,7 @@ const Footer = () => {
         <div className='footer-icons'>
             <img src = {FooterIcons} alt = 'footer-icons' className='icons'/>
         </div>
+        <p className='footer-email'>navina321@gmail.com</p>
     </div>
   )
 }
