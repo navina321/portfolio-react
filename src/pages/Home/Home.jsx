@@ -1,9 +1,11 @@
 import React from 'react'
+import './Home.scss'
 import Text from '../../components/Text/Text'
 import About from '../../containers/About/About'
 import Header from '../../containers/Header/Header'
 import Skills from '../../containers/Skills/Skills'
-import './Home.scss'
+import ProjectPortfolio from '../../containers/ProjectPortfolio/ProjectPortfolio'
+
 const Home = () => {
   return (
     <div className='home-container'>
@@ -14,6 +16,7 @@ const Home = () => {
         </div>
         <About/>
         <Skills/>
+        <ProjectPortfolio/>
     </div>
   )
 }

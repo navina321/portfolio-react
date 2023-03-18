@@ -1,0 +1,23 @@
+@use '../../assets/styles/variables.scss' as *;
+
+.portfolio-header{
+    font-family: $font-header;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+    .portfolio-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio-header{
+        font-size: 3rem;
+    }
+    .portfolio-projects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

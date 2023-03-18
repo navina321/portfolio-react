@@ -1,0 +1,74 @@
+@use '../../assets/styles/variables.scss' as *;
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+}
+.project{
+    &__title-icons{
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__icons{
+        width: 25vw;
+        display: flex;
+        justify-content: space-between;
+        &--icon{
+            height: 6vh;
+        }
+    }
+    &__title{
+        font-family: $font-header;
+        font-size: 1.9rem;
+        font-weight: 400;
+        margin: 2vh 0;
+    }
+    &__lang{
+        width: 90vw;
+        height: 3vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-family: $font-text;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+}
+.line{
+    width: 15vw;
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+    .project-container{
+        width: 29.5vw;
+    }
+    .project {
+        &__image{
+            width: 27.5vw;
+            height: 35vh;
+            border: 5px solid $color-background;
+        }
+        &__title-icons{
+            width: 27.5vw;
+        }
+        &__title{
+            font-size: 2.5rem;
+        }
+        &__lang{
+            width: 30vw;
+        }
+        &__icons{
+            width: 8vw;
+            &--icon{
+                height: 7vh;
+            }
+        }
+    }
+    .line{
+        width: 7.5vw;
+    }
+}
