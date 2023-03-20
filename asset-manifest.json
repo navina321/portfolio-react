@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.7966d3dd.css",
+    "main.js": "/portfolio-react/static/js/main.c853ec7b.js",
+    "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
+    "static/media/ProfileImage.jpg": "/portfolio-react/static/media/ProfileImage.aab2c207ca52398d145c.jpg",
+    "static/media/punk-api-project.png": "/portfolio-react/static/media/punk-api-project.46fd3fbedf685b8bd0ef.png",
+    "static/media/client-project.png": "/portfolio-react/static/media/client-project.a7e80011349f75bd72b3.png",
+    "static/media/trivia-game-project.png": "/portfolio-react/static/media/trivia-game-project.7967f9199b8d21d895f9.png",
+    "static/media/hangman-project.png": "/portfolio-react/static/media/hangman-project.f4c1b6f61585c15ffdcb.png",
+    "static/media/calculator-project.png": "/portfolio-react/static/media/calculator-project.8832fd34b0ca7cd007dd.png",
+    "index.html": "/portfolio-react/index.html",
+    "main.7966d3dd.css.map": "/portfolio-react/static/css/main.7966d3dd.css.map",
+    "main.c853ec7b.js.map": "/portfolio-react/static/js/main.c853ec7b.js.map",
+    "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7966d3dd.css",
+    "static/js/main.c853ec7b.js"
+  ]
+}
