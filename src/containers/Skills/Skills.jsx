@@ -18,7 +18,7 @@ const Skills = () => {
         <div className='skills-all-text'>
             <h1 className='skills-header'>SKILLS.</h1>
             <div className='skills-text'> 
-                <Text text = {"Egestas dictumst enim dui ante nisl risus commodo. Pellentesque dignissim praesent purus in neque erat et. Cras donec ut orci eget neque bibendum cras. Vitae, ultricies arcu pretium duis."}/>
+                <Text text = {"These are a list of skills I have learnt on the course:"}/>
             </div>
         </div>
         <section className='skills-icons'>

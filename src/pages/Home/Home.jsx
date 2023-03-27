@@ -14,7 +14,7 @@ const Home = () => {
           <Header/>
           <h1 className='home-title'>Junior Software Developer.</h1>
           <div className='home-intro-text'>
-              <Text text={"Nunc aliquam faucibus ac in donec commodo id. Dui viverra sit feugiat massa pellentesque arcu at quis. Diam, elementum morbi pellentesque blandit suscipit sit. Neque, et consequat phasellus augue neque mollis tempor."}/>
+              <Text text={"Currently a student on the _nology course, training to be a Junior Software Developer"}/>
           </div>
           <About/>
           <Skills/>
