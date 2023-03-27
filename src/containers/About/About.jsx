@@ -9,8 +9,8 @@ const About = () => {
         <h1 className='about__header'>ABOUT.</h1>
         <img src = {ProfileImage} alt = 'profile' className='about__image'/>
         <div className='about__text'>
-            <Text text = {"Interdum sollicitudin fringilla quisque vivamus. Eget viverra metus, ultrices aliquet. Velit, tincidunt sed sed proin pellentesque dictum pulvinar. Arcu diam massa elementum tempor lectus. Aliquam lacus lacus diam eget quisque purus etiam mi, curabitur. Imperdiet sed felis ipsum, porttitor ipsum faucibus neque cursus. Quis blandit quisque sed diam at tellus sagittis."}/>
-            <Text text ={"Urna, vel nibh lectus condimentum. Purus pellentesque scelerisque tristique in vestibulum augue accumsan. Eu morbi porttitor dolor ipsum dui ultrices viverra nisi, leo. Erat porta risus, id enim adipiscing sit amet at. Tortor, posuere pulvinar volutpat magnis felis suspendisse ut. Tincidunt in pulvinar suspendisse lectus enim, tortor mattis ut. Integer auctor aliquet tincidunt rhoncus at."}/>
+            <Text text = {"After graduating from university, I discovered an interest in coding while caring for a family member. I took beginner online courses on the topic, and found I enjoyed the challenge and creativity involved in building programs. I am excited to pursue a career in technology, as it offers multiple opportunities for growth and innovation across various industries. "}/>
+            <Text text ={"I also have experience in designing custom wedding stationery, which has further developed my ability to communicate effectively and think creatively, in order to create designs that meet the clients’ needs while maintaining my own design style. During the nology course I’ve acquired a number of transferable skills, such as project management and collaboration similar to that of a workplace environment, as well as a strong foundation in multiple programming languages, making me a well-rounded candidate, inspired to pursue a career in tech."}/>
         </div>
     </div>
   )
